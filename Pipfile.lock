@@ -1,7 +1,11 @@
 {
     "_meta": {
         "hash": {
+<<<<<<< HEAD
             "sha256": "234e797993291acbcf7c0b9a53e7376134908ddd9ff1796eef7d0522c629b2d5"
+=======
+            "sha256": "f4fd1613560180385ce51a012b1ffb819ebdd473c545d6a593fb7fb2108737b0"
+>>>>>>> 22084b3 (Yazi Admin paneli düzenlendi.)
         },
         "pipfile-spec": 6,
         "requires": {
@@ -162,6 +166,25 @@
             "index": "pypi",
             "version": "==1.9.9"
         },
+<<<<<<< HEAD
+=======
+        "django-ckeditor": {
+            "hashes": [
+                "sha256:ce0c806e40172dbea35330a207632701a6d418314ae8c8fa140fd277d9322c96",
+                "sha256:e1580105c9ff6fcaca6345acda1dc01416733027c61c6387e02dd5960b8ade3c"
+            ],
+            "index": "pypi",
+            "version": "==6.3.2"
+        },
+        "django-js-asset": {
+            "hashes": [
+                "sha256:86f9f300d682537ddaf0487dc2ab356581b8f50c069bdba91d334a46e449f923",
+                "sha256:adc1ee1efa853fad42054b540c02205344bb406c9bddf87c9e5377a41b7db90f"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==2.0.0"
+        },
+>>>>>>> 22084b3 (Yazi Admin paneli düzenlendi.)
         "docopt": {
             "hashes": [
                 "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"
