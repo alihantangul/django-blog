@@ -1,9 +1,4 @@
 from django.contrib import admin
-<<<<<<< HEAD
-from blog.models import KategoriModel,YazilarModel
-
-admin.site.register(KategoriModel)
-=======
 from blog.models import KategoriModel, YazilarModel
 
 admin.site.register(KategoriModel)
@@ -17,5 +12,4 @@ class YazilarAdmin(admin.ModelAdmin):
 
 admin.site.register(YazilarModel, YazilarAdmin)
 
->>>>>>> 22084b3 (Yazi Admin paneli düzenlendi.)
 

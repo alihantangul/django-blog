@@ -25,13 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-    'blog'
-=======
     'blog',
     'ckeditor'
 
->>>>>>> 22084b3 (Yazi Admin paneli düzenlendi.)
 ]
 
 MIDDLEWARE = [
