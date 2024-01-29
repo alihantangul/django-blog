@@ -14,10 +14,16 @@ class YazilarModel(models.Model):
     kategoriler = models.ManyToManyField(KategoriModel, related_name='yazi')
     yazar = models.ForeignKey(User, on_delete=models.CASCADE, related_name='yazilar')
 
+
     class Meta:
         verbose_name = 'Yazi'
         verbose_name_plural = 'Yazilar'
-        db_table = 'Yazi'
+        db_table = 'yazi'
 
     def __str__(self):
         return self.baslik
+
+
+
+
+
